@@ -6,5 +6,5 @@ let btn = document.getElementById("btn");
 btn.addEventListener("click", function(){
 	tg.MainButton.setText("Отправлено");
 	tg.MainButton.show();
-	tg.sendDate("sendTestMessage");
+	tg.sendData("sendTestMessage");
 });
