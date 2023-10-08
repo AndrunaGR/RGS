@@ -6,6 +6,7 @@ let btn = document.getElementById("btn");
 btn.addEventListener("click", function(){
 	tg.MainButton.setText("Отправлено");
 	tg.MainButton.show();
-	tg.SentWebAppMessage("sendTestMessage");
-	tg.sendData("sendTestMessage");
+	let data = { name: "Andruna"}
+	tg.answerWebAppQuery(web_app_query_id = document.GetElementById("web_app_query_id").value, result-data);
+	//tg.sendData("sendTestMessage");
 });
